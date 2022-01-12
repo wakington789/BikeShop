@@ -1,0 +1,109 @@
+.background{
+		width:100%;
+		height:100px;
+
+}
+.menu-bar
+{
+		background-color:#eab676;
+		width: 100%;
+		height:55px;
+		font-family: Serif;
+		font-size: 16px;
+		padding:20px;
+		text-align: left;
+	
+			
+	}
+			
+
+li.a{
+  display:inline-block;
+  margin:15px;
+  
+}
+
+li.a a:link 
+{  
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+li.a a:hover
+{
+  color:white;
+}
+ 
+
+.About
+{
+	width: 95%;
+	margin:50px;
+	text-align: center;
+	
+}
+
+.sendmessage
+{
+	width: 100%;		
+	color:white;
+}
+
+.sendmessage-round
+{
+  background-image: linear-gradient(210deg, #042f66, #21130d, #1c100b);
+	width:50%;
+	border-radius:5px;
+	padding:20px;
+	margin: 20px auto;
+	font-family:arial;
+	font-size:16px;
+	line-height:10px;
+	
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:5px;
+  border:0px !important;
+  outline-style:none;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 160px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 5px;
+  resize: none;
+  outline-style:none;
+}
+
+input[type=button]{
+  width:100%;
+  background-color: #Ecf3ee;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+body{
+    margin:  0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url(pink.jpg);
+    background-size: cover;
+}
